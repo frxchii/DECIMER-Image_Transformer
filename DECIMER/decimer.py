@@ -30,7 +30,7 @@ default_path = pystow.join("DECIMER-V2")
 
 # model download location
 model_url = "https://zenodo.org/record/8300489/files/models.zip"
-model_path = os.path.dirname(os.path.abspath(__file__))
+model_path = str(default_path) + "/DECIMER_model/"
 
 # download models to a default location
 if (
